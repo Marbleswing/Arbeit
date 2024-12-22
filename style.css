@@ -1,0 +1,38 @@
+div {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+
+
+.h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+input {
+    margin-left: 10px;
+}
+
+.back {
+    font-size: 1.2em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+button{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#input_url{
+    display: none;
+}
