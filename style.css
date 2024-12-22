@@ -3,18 +3,11 @@ div {
     word-wrap: break-word;
 }
 
-
-
-.h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-
+span {
+    word-wrap: break-word;
 }
 
-.h1 {
-    font-size: 2em;
-    font-weight: bold;
-}
+
 
 
 input {
@@ -36,3 +29,41 @@ button{
 #input_url{
     display: none;
 }
+
+.input_points{
+    width: 50px;
+}
+
+.input_correction{
+    width: 50px;
+}
+
+@media (orientation: portrait) and (max-width: 600px) {
+    .h2 {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    #name {
+        width: 100px;
+    }
+}
+  
+@media (orientation: landscape) and (min-width: 600px) {
+    .h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+
+    }
+
+    .h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
