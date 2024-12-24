@@ -204,9 +204,13 @@ function load_test(){
         html += '<input type="text" value="'+ project.name +'" id="name"/> </div>';
         $("#inhalt").append(html);
     } else if (project.type == 2){
-        $("#inhalt").append('<div class="h1">' + project.title + '<span style="margin-left: 100px;">Name: '+ project.name +'</div>');
+        html = '<div> <span class="h1">' + project.title + '</span>';
+        html += '<span class="h2" style="margin-left: 50px;">Name: '+ project.name +'</span> </div>';
+        $("#inhalt").append(html);
     } else{
-        $("#inhalt").append('<div class="h1">' + project.title + '<span style="margin-left: 100px;">Name: '+ project.name +'</div>');
+        html = '<div> <span class="h1">' + project.title + '</span>';
+        html += '<span class="h2" style="margin-left: 50px;">Name: '+ project.name +'</span> </div>';
+        $("#inhalt").append(html);
     }
     
     
